@@ -12,6 +12,8 @@
 extern "C" {
 #endif
 
+#include <stdint.h>
+
 #include "drv_ringbuf.h"
 	//#include "FreeRTOS.h"
 	//#include "task.h"
