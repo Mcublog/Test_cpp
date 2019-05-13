@@ -155,9 +155,9 @@ static uint32_t _hw_get_uart_irq_status(io_serial_h *ser)
 /param: Pointer to serial handler
 /return:
 -----------------------------------------------------------*/
-void io_serial_init(io_serial_h *ser)
+void io_serial_init(io_serial_h *ser, io_serial_type_h type)
 {   
-    ser->type = IO_UART;
+    ser->type = type;
     for (io_callback_id_t i = 0; i < LAST_CALLBACK; i++)
     {
         ser->callback_list[i] = NULL;
