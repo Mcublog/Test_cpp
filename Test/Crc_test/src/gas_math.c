@@ -1,7 +1,7 @@
 // All regarding level measurement
 #include "gas_math.h"
 
-#define printf wr_trace
+#define wr_trace printf
 
 //#include "main.h"
 //#include "custom.h"
