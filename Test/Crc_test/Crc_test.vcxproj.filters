@@ -21,9 +21,15 @@
     <ClCompile Include="example.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\gas_math.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="example.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\gas_math.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
