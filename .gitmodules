@@ -1,0 +1,3 @@
+[submodule "Test/TestFunc/pdf"]
+	path = Test/TestFunc/pdf
+	url = https://github.com/Mcublog/PDFGen.git
